@@ -5,6 +5,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NavigationalCommands {
     public static void main(String[] args) throws InterruptedException {
+// Web driver commands
+        // driver.get
+        // driver.quit
+        // driver.close
+        // driver.manage.window.maximize
+        // driver.navigate .....>>
+        // driver commands because perform by driver
+
+
+
+
 
         //initiate the instance of Web driver
 
@@ -18,7 +29,7 @@ public class NavigationalCommands {
         driver.navigate().to("https://www.fb.com");
 
         //go back to google.com             get keep history (i can go back and forward)
-driver.navigate().back();                   // navigate  dose not keep history
+driver.navigate().back();                   // navigate  does not keep history
 Thread.sleep(2000);
 
 // go back to fb.com

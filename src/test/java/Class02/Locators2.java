@@ -29,6 +29,7 @@ public class Locators2 {
         loginBtn.click();
 
 // confirm that you have logged in the website
+        //because gettext is webElement command you have to create web-element data type >> then convert to string to print it out
         WebElement message= driver.findElement(By.className("login_info"));
        String text= message.getText();
         System.out.println(text);

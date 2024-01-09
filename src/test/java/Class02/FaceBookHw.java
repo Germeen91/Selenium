@@ -16,7 +16,7 @@ public class FaceBookHw {
 
         WebElement element=driver.findElement(By.linkText("Create new account"));
         element.click();
-        Thread.sleep(2000);
+        Thread.sleep(2000);  // good way to make web site load all elements
 
         WebElement name=driver.findElement(By.name("firstname"));
         name.sendKeys("ABC");

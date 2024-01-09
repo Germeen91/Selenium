@@ -15,7 +15,7 @@ public class Locators {
         driver.manage().window().maximize();
 
 // find the WebElement input email and send ur email address to it
-        WebElement email=driver.findElement(By.id("email"));     // we always avoid locator has number value or spaces and choose unique locator > not repititive
+        WebElement email=driver.findElement(By.id("email"));     // we always avoid locator has number value or spaces or log word and choose unique locator > not repititive
 
 //sending the data to webElement
         email.sendKeys("abracadbr@gmail.com");
@@ -32,7 +32,7 @@ public class Locators {
 
 // go to button create new account and click on it
 
-    //   WebElement createAccount= driver.findElement(By.linkText("Create new account"));  // linkText locator is start with <a >tag name && has link and has a text
+    //   WebElement createAccount= driver.findElement(By.linkText("Create new account"));  // linkText locator is must start with <a >tag name && has link and has a text
       //  createAccount.click();
 
 

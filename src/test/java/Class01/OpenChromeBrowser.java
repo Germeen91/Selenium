@@ -27,8 +27,8 @@ public class OpenChromeBrowser {
         Thread.sleep(4000);
 
 
-        // close the window   {close all browser those you opened }
-        driver.quit();
+        // close the window   {close to close current page }
+        driver.quit();  // Quit all browser those you opened
 
     }
 }
