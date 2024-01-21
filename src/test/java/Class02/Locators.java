@@ -15,7 +15,7 @@ public class Locators {
         driver.manage().window().maximize();
 
 // find the WebElement input email and send ur email address to it
-        WebElement email=driver.findElement(By.id("email"));     // we always avoid locator has number value or spaces or log word and choose unique locator > not repititive
+        WebElement email=driver.findElement(By.id("email"));     // we always avoid locator has number value or spaces or log word and choose unique locator > not repetiti ve
 
 //sending the data to webElement
         email.sendKeys("abracadbr@gmail.com");

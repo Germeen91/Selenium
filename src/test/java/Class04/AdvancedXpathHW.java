@@ -14,7 +14,7 @@ public class AdvancedXpathHW {
         // and also help us to access the element is not uniquely it does not have id does not have text
         // we try to use advanced Xpath before indexing
 
-
+//index from 1
 
 
         WebDriver driver=new ChromeDriver();

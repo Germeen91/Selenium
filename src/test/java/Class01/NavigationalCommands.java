@@ -28,8 +28,8 @@ public class NavigationalCommands {
         // facebook.com
         driver.navigate().to("https://www.fb.com");
 
-        //go back to google.com             get keep history (i can go back and forward)
-driver.navigate().back();                   // navigate  does not keep history
+        //go back to google.com             get does not keep history (i can go back and forward)
+driver.navigate().back();                   // navigate keep history
 Thread.sleep(2000);
 
 // go back to fb.com

@@ -18,7 +18,7 @@ public class CSS {
        WebElement inputBox= driver.findElement(By.cssSelector("input[id='profileID']"));
        inputBox.sendKeys("hello");
 
-       // shortcuts no need [] or = or ' '
+       // shortcuts no need [] or = or ' '  >> for id and class name only
 
         // find the profile box          and use shortcut # instead of id
         WebElement profileBox = driver.findElement(By.cssSelector("input#profileBox"));

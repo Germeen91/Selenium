@@ -16,14 +16,14 @@ public class MultipleElements {
         driver.get("https://www.ebay.com");
         // get all the links from ebay.com
         //links mean every button has another page
-        //<a href="www.kkkk.com>likToTlext</a>
+        //<a href="www.kkkk.com>likToText</a>
         //a >> tag name for links      href>> attribute
 
         //Elements +s  because we i need all links
         // ctrl+f  >> search by a  .. because it is the tag name for Links
 List<WebElement> allLinks= driver.findElements(By.tagName("a")); //  link use tag name <a
-
-for (WebElement link:allLinks){
+// we use List of web elements when we need more elements
+for (WebElement link:allLinks){ // because it is list of many web elements so we have yo use loop
 
     // extract the text from the webElement
     String text=link.getText();
@@ -40,7 +40,7 @@ for (WebElement link:allLinks){
 
 // try to get multiple elements
       List<WebElement> abc= driver.findElements(By.tagName("input"));  // List because we find more elements by tag name
-
+// to findElements we have to find them by locator common between them
 for (WebElement all:abc){
 // send text to all input tags found
     all.sendKeys("hello");

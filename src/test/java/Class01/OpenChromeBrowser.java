@@ -17,7 +17,7 @@ public class OpenChromeBrowser {
         //driver.manage().window().fullscreen();
 
 // get the title
-                String title=driver.getTitle();
+                String title=driver.getTitle();  //>> get title mean show it or print it so we have String Variable
         System.out.println("the title of the page is "+title);
 
         // get the url of the page
