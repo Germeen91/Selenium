@@ -44,6 +44,8 @@ String ss=chaneText.getText();
 
 WebElement DisplayButton= driver.findElement(By.xpath("//button[@id='display_button']"));
 DisplayButton.click();
+//       WebElement element=driver.findElement(By.xpath("//button[text()='Enabled']"))
+//        wait.until(ExpectedConditions.visibilityOf(element));
 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Enabled')]")));
 WebElement disButton= driver.findElement(By.xpath("//button[contains(text(),'Enabled')]"));
 disButton.click();

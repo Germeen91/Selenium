@@ -1,5 +1,4 @@
-package utils;
-import utils.Constants;
+package Utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,5 +1,5 @@
 package Class07;
-import utils.CommonMethods;
+import Utils.CommonMethods;
 
 import java.io.IOException;
 

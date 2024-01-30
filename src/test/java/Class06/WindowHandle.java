@@ -39,7 +39,7 @@ public class WindowHandle {
 //            switch to the handle
             driver.switchTo().window(handle);  // will switch to all pages
 //            check if this is the desired window
-            if(driver.getTitle().equals("Privacy Policy – Privacy & Terms – Google")){
+            if(driver.getTitle().equals("Privacy Policy – Privacy & Terms – Google")){//not getText because it is not webElement
                 break;
             }
         }

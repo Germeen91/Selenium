@@ -28,10 +28,13 @@ public class HW {
 
         //        get the column with the ids
         List<WebElement> ids = driver.findElements(By.xpath("//table/tbody/tr/td[2]"));
+
+        //iterate to find the row number
         int count=1;
         for (WebElement E:ids) {
 
             if (E.getText().equals("95901A")) {
+                // print the row number
                 System.out.println(count);
 
                 WebElement check = driver.findElement(By.xpath("//table/tbody/tr[" + count + "]/td[1]"));

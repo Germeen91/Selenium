@@ -37,6 +37,7 @@ public class DynamicTable {
             if (id.equals("95843A")) {
 //                print the row number
                 System.out.println(i + 1);
+                // from row 0+1  >> give me colum 1 >> to click on check box
                 WebElement checkbox = driver.findElement(By.xpath("//table/tbody/tr[" + (i + 1) + "]/td[1]"));
                 checkbox.click();
             }
