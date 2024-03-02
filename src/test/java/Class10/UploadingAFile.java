@@ -20,7 +20,7 @@ public class UploadingAFile {
 
         //rightClick >> properties >> copy location + name of image .typeOfFile
 
-        uploadFile.sendKeys("C:\\Users\\Germe\\Pictures\\Screenshots\\abc.png");
+        uploadFile.sendKeys("C:\\Users\\Germe\\Pictures\\Screenshots\\abc.png"); //rename the picture first
 
 
 

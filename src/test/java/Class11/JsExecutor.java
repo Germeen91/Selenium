@@ -26,6 +26,11 @@ public class JsExecutor {
         js.executeScript("arguments[0]. setAttribute('style', 'background: pink; border: 2px solid red;');",hoverBtn); //location
 //js Executor Script to perform .... from google
 
+        //https://www.c-sharpcorner.com/article/how-to-highlight-webelements-using-javascriptexecutor-in-selenium-webdriver/
+
+
+
+
 
 //scroll down
         js.executeScript("window.scrollBy(0,1000)");
